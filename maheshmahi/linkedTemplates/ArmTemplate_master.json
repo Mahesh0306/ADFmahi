@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "maheshmahi"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"self-hosted-IR_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/fe551589-be0a-4fdd-aa41-baa85270cbaf/resourcegroups/TestEnvironment/providers/Microsoft.DataFactory/factories/ADFmahii/integrationruntimes/selfhostedIR"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"self-hosted-IR_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('self-hosted-IR_properties_typeProperties_linkedInfo_resourceId')]"

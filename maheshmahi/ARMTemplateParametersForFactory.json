@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "maheshmahi"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"self-hosted-IR_properties_typeProperties_linkedInfo_resourceId": {
 			"value": "/subscriptions/fe551589-be0a-4fdd-aa41-baa85270cbaf/resourcegroups/TestEnvironment/providers/Microsoft.DataFactory/factories/ADFmahii/integrationruntimes/selfhostedIR"
 		}
