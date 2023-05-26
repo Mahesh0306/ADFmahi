@@ -1,0 +1,12 @@
+{
+	"name": "self-hosted-IR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/fe551589-be0a-4fdd-aa41-baa85270cbaf/resourcegroups/TestEnvironment/providers/Microsoft.DataFactory/factories/ADFmahii/integrationruntimes/selfhostedIR",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
